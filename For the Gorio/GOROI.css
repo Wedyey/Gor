@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+}
+header{     
+    padding: 10px;
+    background-color: rgb(244, 94, 94);
+    text-align: center;
+}
+p{
+    margin: 10px;
+    font-weight: bold;
+}
+.navbar ul{
+    margin: 0px;
+    padding: 20px;
+    list-style: none;
+    background-color: rgb(61, 60, 60);
+    overflow: hidden;
+}
+.navbar a:hover{
+    background-color: rgb(37, 37, 37);
+}
+.navbar li{
+    float: left;
+}
+.navbar a{
+    padding: 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* members css
+    <h3>THE GORIO'S:</h3>
+    <p>1.Wejie</p>
+    <p>2.Cloudio</p>
+    <p>3.Ostings</p>
+    <p>4.Dolpo</p>
+    <p>6.Keon(Ang gwapo ras GORIO)</p>
+    <p>7.Pon Emman</p>
+    <p>8.Samex the Gamer</p>
+    <p>9.Kadong</p>
+    <p>10.Sasuke(Cambulo version)</p>
+    <p>11.Dacoconut</p>
+    <img src="wejie.jpg" id = "Wejie">
+    <img src="cloudio.jpg" id = "Cloud">
+    <img src="ost.jpg" id = "Dhar" >	
+    <img src="rodulf.jpg" id = "Pong">	
+    <img src="keonpogs.jpg" id = "Keon">
+    <img src="pon.jpg" id = "Emman">	
+    <img src="samexthegamer.jpg" id = "Sam">	
+    <img src="kadong.jpg" id = "Dong">	
+    <img src="christchan.jpg" id = "Daks">
+    <img src="dacocoits.jpg" id = "james">  
+*/
+img{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+main h3{
+    text-align: center;
+    font-size: 35px;
+}
+.members{
+    display: flex;
+    align-items: top;
+}
+
+#Wejie:hover{
+    opacity: 0.9;
+}
+#Cloud:hover{
+    opacity: 0.9;
+}
+#Dhar:hover{
+    opacity: 0.9;
+}
+#Pong:hover{
+    opacity: 0.9;
+}
+#Keon:hover{
+    opacity: 0.9;
+}
+#Emman:hover{
+    opacity: 0.9;
+}
+#Sam:hover{
+    opacity: 0.9;
+}
+#Dong:hover{
+    opacity: 0.9;
+}
+#Daks:hover{
+    opacity: 0.9;
+}
+#James:hover{
+    opacity: 0.9;
+}
